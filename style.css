@@ -1,0 +1,687 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    /* background-color: black; */
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: plum;
+}
+
+#main{
+    width: 100%;
+    /* height: 450vh; */
+    background-color:#F3EEE8;
+    border-top: 1px solid transparent;
+}
+
+#i1{
+    width: 100%;
+    height: 14%;
+    margin-top: 30px;
+    padding: 0px 40px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+}
+#i1 h2{
+    font-family: "Voyage";
+    font-size: 40px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#i1 i{
+    font-size: 40px;
+}
+
+#i1 i:hover{
+    transform: rotate(180deg);
+}
+
+#i1 i{
+    transition: all cubic-bezier(0.68, -0.55, 0.265, 1.55) 1s;
+}
+
+#i1 img{
+    width: 40px;
+    /* height: 40px; */
+}
+
+#i1 img:hover{
+    transform: rotate(360deg);
+}
+
+#i1 img{
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s;
+}
+
+#main>img{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 900px;
+    z-index: 9;
+}
+#main>h2{
+        position: absolute;
+        top: 120%;
+        left: 40%;
+        font-size: 45px;
+        font-family: kavoon;
+        z-index: 9;
+}
+
+#main>h2 span{
+        font-family: voyage;
+}
+
+#main>h1{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-size: 650px;
+    font-weight: 700;
+    font-family: "Voyage";
+    color: aquamarine;
+}
+
+#ig{
+    height: 80px;
+    margin-top: 65%;
+}
+
+#i2{
+    width: 100%;
+    height: 1700px;
+    background-color: #E3DACD;
+    margin-top: 92%;
+    border-top: 1px solid transparent;
+}
+
+#i3{
+    width: 27%;
+    height: 7%;
+    background-color: #E3DACD;
+    margin-top: -44px;
+    margin-left: 39%;
+    border-radius: 45px;
+}
+
+#i3 h5{
+    padding: 30px 30px ;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: kavoon;
+}
+
+#i2 h1{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 60px;
+    font-family: voyage;
+    font-weight: 500;
+    text-align: center;
+}
+
+#i2 h2{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-size: 170px;
+    font-family: Style Script;
+    font-weight: 100;
+    text-align: center;
+    line-height: 200px;
+}
+
+#i2 svg{
+    width: 800px;
+    margin-left: 400px;
+    margin-top: -400px;
+}
+
+.divs{
+    width: 100%;
+    height: 1150px;
+    /* background-color: #E3DACD; */
+    border-top: 1px solid transparent;
+}
+
+#div1{
+    background-color: #E3DACD;
+}
+
+.capsules{
+    width: 100%;
+    height: 1350px;
+    /* background-color: #F3EEE8; */
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top: 1px solid transparent;
+}
+
+#capsule1{
+    background-color: #F3EEE8;
+}
+
+.a{
+    width: 1000px;
+    height: 1100px;
+    /* background-color: aqua; */
+    margin-left: 270px;
+    margin-top: -300px;
+    position: relative;
+    border-top: 1px solid transparent;
+}
+
+#a1{
+    /* background-color: violet; */
+}
+
+.cards{
+    width: 310px;
+    height: 410px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 250px;
+    left: 270px;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+    transform-origin: bottom center;
+}
+
+.a:hover #card1{
+    transform: rotate(15deg);
+}
+
+.a:hover #card2{
+    transform: rotate(-15deg);
+}
+
+#card1{
+    /* background-color: black; */
+    margin-left: 130px;
+    /* transform: rotate(7deg); */
+}
+
+#card2{
+    /* background-color: burlywood; */
+    margin-top: -40px;
+    margin-left: 30px;
+    overflow: hidden;
+    transform: rotate(-7deg);
+}
+
+#card1 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#card2 video{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#a1 h5{
+    margin-top: 750px;
+    font-size: 23px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a1 h1{
+    margin-top: 50px;
+    font-family: voyage;
+    font-size: 150px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a1 h4{
+    margin-top: 25px;
+    text-align: center;
+    font-family: voyage;
+    opacity: 0.9;
+}
+
+#div2{
+    background-color: #F3EEE8;
+}
+
+#capsule2{
+    background-color: #FFE699;
+}
+
+#a2{
+    /* background-color: cyan; */
+}
+
+.a:hover #card3{
+    transform: rotate(15deg);
+}
+
+.a:hover #card4{
+    transform: rotate(-15deg);
+}
+
+#card3{
+    /* background-color: black; */
+    margin-left: 130px;
+    /* transform: rotate(7deg); */
+}
+
+#card4{
+    /* background-color: burlywood; */
+    margin-top: -40px;
+    margin-left: 30px;
+    overflow: hidden;
+    transform: rotate(-7deg);
+}
+
+#card3 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#card4 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#a2 h5{
+    margin-top: 750px;
+    font-size: 23px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a2 h1{
+    margin-top: 50px;
+    font-family: voyage;
+    font-size: 150px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a2 h4{
+    margin-top: 25px;
+    text-align: center;
+    font-family: voyage;
+    opacity: 0.9;
+}
+
+#div3{
+    background-color: #FFE699;
+}
+
+#capsule3{
+    background-color: #F3EEE8;
+}
+
+#a3{
+    /* background-color: teal; */
+}
+
+.a:hover #card5{
+    transform: rotate(15deg);
+}
+
+.a:hover #card6{
+    transform: rotate(-15deg);
+}
+
+#card5{
+    /* background-color: black; */
+    margin-left: 130px;
+    /* transform: rotate(7deg); */
+}
+
+#card6{
+    /* background-color: burlywood; */
+    margin-top: -40px;
+    margin-left: 30px;
+    overflow: hidden;
+    transform: rotate(-7deg);
+}
+
+#card5 video{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#card6 video{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#a3 h5{
+    margin-top: 700px;
+    font-size: 23px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a3 h1{
+    margin-top: 30px;
+    font-family: voyage;
+    font-size: 150px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 130px;
+}
+
+#a3 h4{
+    margin-top: 25px;
+    text-align: center;
+    font-family: voyage;
+    opacity: 0.9;
+}
+
+#div4{
+    background-color: #F3EEE8;
+}
+
+#capsule4{
+    background-color: #FFFFFF;
+}
+
+#a4{
+    /* background-color: cornflowerblue; */
+}
+
+.a:hover #card7{
+    transform: rotate(15deg);
+}
+
+.a:hover #card8{
+    transform: rotate(-15deg);
+}
+
+#card7{
+    /* background-color: black; */
+    margin-left: 130px;
+    /* transform: rotate(7deg); */
+}
+
+#card8{
+    /* background-color: burlywood; */
+    margin-top: -40px;
+    margin-left: 30px;
+    overflow: hidden;
+    transform: rotate(-7deg);
+}
+
+#card7 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#card8 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#a4 h5{
+    margin-top: 750px;
+    font-size: 23px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a4 h1{
+    margin-top: 50px;
+    font-family: voyage;
+    font-size: 150px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 130px;
+}
+
+#a4 h4{
+    margin-top: 25px;
+    text-align: center;
+    font-family: voyage;
+    opacity: 0.9;
+}
+
+#div5{
+    background-color: #FFFFFF;
+}
+
+#capsule5{
+    background-color: #F3EEE8;
+}
+
+#a5{
+    /* background-color: darkgrey; */
+}
+
+.a:hover #card9{
+    transform: rotate(15deg);
+}
+
+.a:hover #card10{
+    transform: rotate(-15deg);
+}
+
+#card9{
+    /* background-color: black; */
+    margin-left: 130px;
+    /* transform: rotate(7deg); */
+}
+
+#card10{
+    /* background-color: burlywood; */
+    margin-top: -40px;
+    margin-left: 30px;
+    overflow: hidden;
+    transform: rotate(-7deg);
+}
+
+#card9 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#card10 img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#a5 h5{
+    margin-top: 750px;
+    font-size: 23px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+}
+
+#a5 h1{
+    margin-top: 50px;
+    font-family: voyage;
+    font-size: 150px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 130px;
+}
+
+#a5 h4{
+    margin-top: 25px;
+    text-align: center;
+    font-family: voyage;
+    opacity: 0.9;
+}
+
+#smalldiv{
+    background-color: #E3DACD;
+    width: 100%;
+    height: 370px;
+    position: absolute;
+    top: 8700px;
+}
+
+#sd1{
+    width: 27%;
+    height: 18%;
+    background-color: #E3DACD;
+    margin-top: -37px;
+    margin-left: 39%;
+    border-radius: 45px;
+}
+
+#sd1 h1{
+    padding: 25px 30px ;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: kavoon;
+}
+
+#lastsecond{
+    width: 100%;
+    height: 1400px;
+    background-color: #FFE699;
+    position: absolute;
+    top: 8760px;
+}
+
+#lastsecond :nth-child(1) {
+    width: 290px;
+    margin-top: 500px;
+    margin-left: 630px;
+}
+
+#lastsecond h1{
+    font-size: 170px;
+    font-family: voyage;
+    font-weight: 100;
+    margin-top: -580px;
+    text-align: center;
+    line-height: 140px;
+}
+
+#lastsecond :nth-child(3){
+    width: 400px;
+    position: absolute;
+    top: 195px;
+    left: 260px;
+}
+
+#lastsecond h2{
+    font-size: 170px;
+    font-family: voyage;
+    font-weight: 100;
+    text-align: center;
+    line-height: 140px;
+    margin-top: 220px;
+}
+
+#last{
+    width: 100%;
+    height: 800px;
+    background-color: #F6BAC6;
+    position: absolute;
+    top: 10160px;
+}
+
+#last h1{
+    font-size: 120px;
+    font-family: voyage;
+    text-align: center;
+    margin-top: 250px;
+    color: #D73234;
+}
+
+#last h2{
+    /* font-size: 50px; */
+    margin-left: 600px;
+    margin-top: 60px;
+    font-family: kavoon;
+    color: #D73234;
+}
+
+#last h3{
+    margin-left: 800px;
+    font-size: 24px;
+    margin-top: -30px;
+    font-family: kavoon;
+    color: #D73234;
+}
+
+#lastnav{
+    width: 100%;
+    height: 100px;
+    background-color: #F6BAC6;
+    position: absolute;
+    bottom: 0%;
+    padding: 45px 30px;
+}
+
+#lastnav :nth-child(1){
+    text-decoration: none;
+    color: #D73234;
+    font-family: kavoon;
+}
+
+#lastnav :nth-child(2){
+    text-decoration: none;
+    color: #D73234;
+    font-family: kavoon;
+    margin-left: 30px;
+}
+
+#lastnav :nth-child(3){
+    text-decoration: none;
+    color: #D73234;
+    font-family: kavoon;
+    margin-left: 30px;
+}
+
+#lastnav :nth-child(4){
+    text-decoration: none;
+    color: #D73234;
+    font-family: kavoon;
+    margin-left: 30px;
+}
